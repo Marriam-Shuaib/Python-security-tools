@@ -29,12 +29,29 @@ Checks for:
 - Spaces in usernames
 - Reserved names like admin or root
 
+### Connection Checker
+Tests if a connection can be made to a hostname 
+on a specific port. Uses try/except for error handling.
+
+How to run:
+python check_connection.py
+
+### System Info
+Grabs your machine's hostname, IP address, and 
+current directory. Saves output to system_info.txt.
+
+How to run:
+python system_info.py
+
 ## What I learned
 - Python functions and parameters
 - String methods and input validation
+- File handling — reading and writing to files
+- Error handling with try/except
+- Importing and using os and socket libraries
 - If/elif/else logic for security checks
-- Building simple CLI security tools
 
 ## Technologies
 - Python 3
 - VS Code
+- Libraries: os, socket
